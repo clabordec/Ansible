@@ -1,0 +1,20 @@
+---
+- name: Installation
+  hosts: all
+  vars:
+          packages: [telnet,ftp,htop]
+
+  tasks:
+          - name: Installing packages
+            yum:
+                    name: "{{ item }}"
+                    state: absent
+            with_items: "{{ packages }}"
+            when: ansible_os_family == "RedHat"
+
+          - name: Installing packages in Ubuntu
+            apt:
+                    name: "{{ item }}"
+                    state: absent
+            with_items: "{{ packages }}"
+            when: ansible_os_family == "Debian"

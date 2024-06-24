@@ -1,0 +1,14 @@
+---
+- name: Adding text to a file
+  hosts: all
+
+  tasks:
+          - name: Create a file name hello_world.txt
+            file:
+                    path: /tmp/hello_world.txt
+                    state: touch
+
+          - name: Adding text to the hello_world.txt file
+            blockinfile:
+                    path: /tmp/hello_world.txt
+                    block: Hello World, my name is Chaanyah Laborde.

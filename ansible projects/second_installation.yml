@@ -1,0 +1,19 @@
+---
+- name: Installing and Starting HTTP
+  hosts: localhost
+
+  tasks:
+          - name: Installing HTTP
+            yum:
+                    name: httpd
+                    state: present
+
+          - name: Starting HTTP
+            service:
+                    name: httpd
+                    state: started
+
+          - name: Enabling HTTP
+            service:
+                    name: httpd
+                    enabled: yes

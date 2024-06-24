@@ -1,0 +1,11 @@
+---
+- name: Copy file to remote clients
+  hosts: all
+
+  tasks:
+          - name: Copy file scan_report.txt
+            become: true
+            copy:
+                    src: /home/clabordec/scan_report.txt
+                    dest: /tmp
+                    mode: 0644

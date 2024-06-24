@@ -1,0 +1,13 @@
+---
+- name: Deleting users
+  hosts: all
+
+  tasks:
+          - name: Deleting users with the loop parameter
+            user:
+                    name: "{{ item }}"
+                    state: absent
+            loop:
+                    - kramer
+                    - jerry
+                    - eliane

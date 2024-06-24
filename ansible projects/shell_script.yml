@@ -1,0 +1,22 @@
+---
+- name: Run a shell script that will show all running processes
+  hosts: all
+
+  tasks:
+          - name: Create the file for the shell script
+            file:
+                    path: /etc/process.sh
+                    state: touch
+
+          - name: Add contents in the script
+            blockinfile:
+                    path: /etc/process.sh
+                    block: $(ps -ef > /tmp/process.txt)
+
+          - name: Set permissions to the shell script
+            file:
+                    path: /etc/process.sh
+                    mode: 0755
+
+          - name: Execute the shell script
+            shell: /etc/process.sh

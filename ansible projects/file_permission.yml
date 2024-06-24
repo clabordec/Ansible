@@ -1,0 +1,10 @@
+---
+- name: Change File Permissions
+  hosts: all
+
+  tasks:
+          - name: File Permissions
+            file:
+                    path: /home/clabordec/storage_data.txt
+                    mode: a+w
+

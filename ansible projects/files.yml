@@ -1,0 +1,7 @@
+---
+- name: Creating multiple files
+  hosts: localhost
+
+  tasks:
+          - name: Creating the files in the /tmp directory with the create_directory_and_files script
+            shell: /home/clabordec/scripts/create_directory_and_file.sh

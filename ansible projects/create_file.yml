@@ -1,0 +1,12 @@
+---
+- name: Creating a file
+  hosts: localhost
+
+  tasks:
+          - name: Creating a file called ip_address.txt
+            file:
+                    path: /tmp/ip_address.txt
+                    state: touch
+
+          - name: Add contents to the file called ip_address.txt
+            shell: /home/clabordec/scripts/ip_address.sh

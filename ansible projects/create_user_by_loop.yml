@@ -1,0 +1,13 @@
+---
+- name: Creating users
+  hosts: all
+
+  tasks:
+          - name: Createing users using the loop parameter
+            user:
+                    name: "{{ item }}"
+            loop:
+                    - jerry
+                    - kramer
+                    - eliane
+

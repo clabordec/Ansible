@@ -1,0 +1,31 @@
+---
+- name: Installing apache on both Red Hat and Debian servers
+  hosts: all
+
+  tasks:
+          - name: install Apache on Centos
+            yum:
+                    name: httpd
+                    state: present
+            when: ansible_os_family == "RedHat"
+
+          - name: Install Apache on Ubuntu
+            apt:
+                    name: apache2
+                    state: present
+            when: ansible_os_family == "Ubuntu"
+
+          - name: Start and enable the Apache service on Centos
+            service:
+                    name: httpd
+                    state: started
+                    enabled: yes
+
+            when: ansible_os_family == "RedHat"
+
+          - name: Start and enable the Apache service on Ubuntu
+            service:
+                    name: apache2
+                    state: started
+                    enabled: yes
+            when: ansible_os_family == "Ubuntu"

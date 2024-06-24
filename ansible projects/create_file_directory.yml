@@ -1,0 +1,29 @@
+---
+- name: Creating a file and directory in the /tmp directory
+  hosts: all
+
+  tasks:
+          - name: Creating a directory
+            file:
+                    path: /tmp/new_dir
+                    mode: 770
+                    state: directory
+
+          - name: Creating a file
+            file:
+                    path: /tmp/new_dir/new_file.txt
+                    state: touch
+
+          - name: Check status of the new file
+            stat:
+                    path: /tmp/new_dir/new_file.txt
+            register: fs
+
+          - name: Show file status
+            debug:
+                    msg: File status and attributes {{ fs }}
+           
+          - name: Remove the file
+            file:
+                    path: /tmp/new_dir/new_file.txt
+                    state: absent

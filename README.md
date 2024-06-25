@@ -6,7 +6,7 @@ Ansible is an open-source automation tool used for configuration management, app
 <br>
 
 ## Key Features
-- Agentless Architecture: Ansible operates without the need for agent installation on managed nodes, reducing overhead and simplifying management.
+- <b>Agentless Architecture</b>: Ansible operates without the need for agent installation on managed nodes, reducing overhead and simplifying management.
 - Human-Readable Playbooks: Use YAML syntax to define and automate workflows, making it accessible to both developers and system administrators.
 - Extensive Modules: A wide range of built-in modules cover various system and application tasks, with support for custom module creation.
 - Idempotency: Ensures that repetitive executions of playbooks achieve the same results, preventing unintended changes.

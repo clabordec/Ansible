@@ -19,7 +19,7 @@ Implementing Ansible can bring numerous advantages to your organization, includi
 
 <br>
 
-### Increased Efficiency and Productivity
+## Increased Efficiency and Productivity
 Ansible automates routine tasks such as system updates, software installations, and configuration management. This allows your IT team to focus on higher-value projects and strategic initiatives, increasing overall productivity.
 
 <br>

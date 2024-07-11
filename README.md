@@ -24,7 +24,7 @@ Ansible automates routine tasks such as system updates, software installations, 
 
 <br>
 
-### Improved Consistency and Reliability
+## Improved Consistency and Reliability
 By defining standard configurations and deployments in playbooks, Ansible ensures that all systems are configured identically. This minimizes the risk of discrepancies and errors, leading to more reliable and stable IT environments.
 
 <br>

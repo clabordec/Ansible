@@ -39,7 +39,7 @@ The agentless architecture of Ansible reduces the need for additional software a
 
 <br>
 
-### Scalability and Flexibility
+## Scalability and Flexibility
 Ansible can manage both small and large-scale environments seamlessly. Whether your infrastructure consists of a few servers or thousands of nodes, Ansible scales efficiently to meet your automation needs. Its flexibility allows for integration with various platforms and technologies, adapting to evolving business requirements.
 
 <br>

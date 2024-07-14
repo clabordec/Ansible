@@ -44,7 +44,7 @@ Ansible can manage both small and large-scale environments seamlessly. Whether y
 
 <br>
 
-### Security and Compliance
+## Security and Compliance
 With Ansible, you can enforce security policies and compliance requirements across your infrastructure. Automating the application of security patches and configurations helps maintain a secure environment and reduces the risk of vulnerabilities.
 
 <br>

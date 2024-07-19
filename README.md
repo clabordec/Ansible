@@ -10,7 +10,7 @@ Ansible is an open-source automation tool used for configuration management, app
 - <b>Human-Readable Playbooks</b>: Use YAML syntax to define and automate workflows, making it accessible to both developers and system administrators.
 - <b>Extensive Modules</b>: A wide range of built-in modules cover various system and application tasks, with support for custom module creation.
 - <b>Idempotency</b>: Ensures that repetitive executions of playbooks achieve the same results, preventing unintended changes.
-- Secure and Scalable: Securely manage thousands of nodes from a single control machine, scaling easily with organizational growth.
+- <b>Secure and Scalable</b>: Securely manage thousands of nodes from a single control machine, scaling easily with organizational growth.
 
 <br>
 

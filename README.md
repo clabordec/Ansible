@@ -28,7 +28,7 @@ By defining standard configurations and deployments in playbooks, Ansible ensure
 
 <br>
 
-## Enhanced Collaboration and Transparency
+### Enhanced Collaboration and Transparency
 Ansible’s playbooks are written in a clear, human-readable format that can be easily understood and reviewed by team members. This transparency fosters better collaboration between development, operations, and security teams, aligning efforts towards common goals.
 
 <br>

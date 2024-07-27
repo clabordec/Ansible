@@ -48,7 +48,7 @@ With Ansible, you can enforce security policies and compliance requirements acro
 
 <br>
 
-## Getting Started
+### Getting Started
 To get started with Ansible:
 
 <br>

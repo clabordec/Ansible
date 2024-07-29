@@ -54,7 +54,7 @@ To get started with Ansible:
 <br>
 
 1. <b>Installation</b>: Install Ansible on the control machine by following the installation guide.
-1. <b>Configuration</b>: Set up your inventory file and configure your managed nodes.
+1. <b>Configuration</b>: Set up the inventory file and configure the managed nodes.
 1. <b>Write Playbooks</b>: Create playbooks to define your automation tasks.
 1. <b>Execute Tasks</b>: Run your playbooks using the ansible-playbook command to automate your workflows.
 

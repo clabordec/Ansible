@@ -62,6 +62,3 @@ To get started with Ansible:
 
 For detailed documentation and examples, visit the official Ansible documentation.
 
-<br>
-
-By leveraging Ansible, your company can achieve greater efficiency, consistency, and control over IT operations, driving innovation and supporting growth objectives.

@@ -16,8 +16,6 @@ Ansible is an open-source automation tool used for configuration management, app
 
 ## Benefits to Your Company
 
-<br>
-
 ### Increased Efficiency and Productivity
 Ansible automates routine tasks such as system updates, software installations, and configuration management. This allows your IT team to focus on higher-value projects and strategic initiatives, increasing overall productivity.
 
